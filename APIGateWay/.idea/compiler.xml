@@ -7,48 +7,31 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Notification-service" />
-        <module name="payment-service" />
-        <module name="claim-service" />
-        <module name="service-Registery" />
         <module name="configServer" />
         <module name="APIGateWay" />
-        <module name="user-service" />
-      </profile>
-      <profile name="Annotation profile for reporting-service" enabled="true">
-        <sourceOutputDir name="target/generated-sources/annotations" />
-        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="false">
-          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
-        </processorPath>
-        <module name="audit-log-service" />
-        <module name="reporting-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="APIGateWay" target="17" />
       <module name="audit-log-service" target="17" />
-      <module name="claim-service" target="17" />
-      <module name="configServer" target="17" />
-      <module name="Notification-service" target="17" />
-      <module name="payment-service" target="17" />
-      <module name="reporting-service" target="17" />
-      <module name="service-Registery" target="17" />
-      <module name="user-service" target="17" />
+      <module name="claim-service" target="1.5" />
+      <module name="Notification-service" target="1.5" />
+      <module name="payment-service" target="1.5" />
+      <module name="reporting-service" target="1.5" />
+      <module name="service-Registery" target="1.5" />
+      <module name="user-service" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="APIGateWay" options="-parameters" />
-      <module name="Notification-service" options="-parameters" />
+      <module name="Notification-service" options="" />
       <module name="audit-log-service" options="-parameters" />
-      <module name="claim-service" options="-parameters" />
-      <module name="configServer" options="-parameters" />
-      <module name="payment-service" options="-parameters" />
-      <module name="reporting-service" options="-parameters" />
-      <module name="service-Registery" options="-parameters" />
-      <module name="user-service" options="-parameters" />
+      <module name="claim-service" options="" />
+      <module name="configServer" options="" />
+      <module name="payment-service" options="" />
+      <module name="reporting-service" options="" />
+      <module name="service-Registery" options="" />
+      <module name="user-service" options="" />
     </option>
   </component>
 </project>
