@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/APIGateWay/pom.xml" />
+        <option value="$PROJECT_DIR$/../audit log service/audit-log-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../claim service/claim-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../Notification service/Notification-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../payment service/payment-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../reporting service/reporting-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../service Registery/service-Registery/pom.xml" />
+        <option value="$PROJECT_DIR$/../user service/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/../configServer/configServer/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>
