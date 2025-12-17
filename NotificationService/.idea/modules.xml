@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../APIGateWay/APIGateWay/APIGateWay.iml" filepath="$PROJECT_DIR$/../APIGateWay/APIGateWay/APIGateWay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Notification service.iml" filepath="$PROJECT_DIR$/.idea/Notification service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Notification-service/Notification-service.iml" filepath="$PROJECT_DIR$/Notification-service/Notification-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../audit log service/audit-log-service/audit-log-service.iml" filepath="$PROJECT_DIR$/../audit log service/audit-log-service/audit-log-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../claim service/claim-service/claim-service.iml" filepath="$PROJECT_DIR$/../claim service/claim-service/claim-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../payment service/payment-service/payment-service.iml" filepath="$PROJECT_DIR$/../payment service/payment-service/payment-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../service Registery/service-Registery/service-Registery.iml" filepath="$PROJECT_DIR$/../service Registery/service-Registery/service-Registery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../user service/user-service/user-service.iml" filepath="$PROJECT_DIR$/../user service/user-service/user-service.iml" />
+    </modules>
+  </component>
+</project>
