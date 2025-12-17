@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Notification-service" />
+        <module name="APIGateWay" />
+        <module name="user-service" />
+        <module name="payment-service" />
+        <module name="claim-service" />
+        <module name="service-Registery" />
+      </profile>
+      <profile name="Annotation profile for audit-log-service" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/unknown/lombok-unknown.jar" />
+        </processorPath>
+        <module name="audit-log-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="API-GateWay" target="17" />
+      <module name="APIGateWay" target="17" />
+      <module name="audit-log-service" target="17" />
+      <module name="claim-service" target="17" />
+      <module name="Notification-service" target="17" />
+      <module name="payment-service" target="17" />
+      <module name="reporting-service" target="17" />
+      <module name="service-Registery" target="17" />
+      <module name="user-service" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="API-GateWay" options="-parameters" />
+      <module name="APIGateWay" options="-parameters" />
+      <module name="Notification-service" options="-parameters" />
+      <module name="audit-log-service" options="-parameters" />
+      <module name="claim-service" options="-parameters" />
+      <module name="payment-service" options="-parameters" />
+      <module name="reporting-service" options="-parameters" />
+      <module name="service-Registery" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+    </option>
+  </component>
+</project>
